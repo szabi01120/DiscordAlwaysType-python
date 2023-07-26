@@ -13,3 +13,20 @@
     - Channel ID can be retrieved by right clicking on the target channel, and click "Copy ID"
 7. Enjoy! 
     - Press `Ctrl+C` (`Ctrl` and `C` altogether) to stop the program.
+
+
+# DiscordAlwaysType Python
+## Kezdésként:
+1. Telepítsd a [Python-t](https://www.python.org/downloads/)
+2. Töltsd le a repo-t a zöld "Code" > "Download ZIP" gombra kattintva. Bontsd ki.
+3. Nyisd meg a terminált, és lépj be a kicsomagolt ZIP könyvtárába.
+       - Terminál pl. Parancssor Windowson, Bash Linuxon.
+       - Windowson kattints a fájl "helysávjára", és írd be a `cmd` parancsot a terminál megnyitásához.
+4. Telepítsd a szükséges fájlokat a `pip install -r requirements.txt` paranccsal a terminálban. (Vagy `pip install requests`)
+5. Futtasd a programot a `python main.py` paranccsal.
+6. Illeszd be a DC tokent és a channel ID-t. 
+
+    - [DC token](https://linuxhint.com/get-discord-token/).
+    - Csatornaazonosító: jobb klikk a célcsatornára, majd kattints az "Copy ID" gombra.
+7. Meg is vagyunk!
+   A program leállításához nyomd meg a Ctrl+C billentyűkombinációt (terminálban).
